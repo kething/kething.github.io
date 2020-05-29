@@ -6,5 +6,5 @@ h1 {
 }
 
 body {
-    background: #000 url("../images/bg.jpg") center;
+    background: rbg(215, 208, 233) url("../images/bg.jpg") center;
 }
