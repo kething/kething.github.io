@@ -1,0 +1,10 @@
+h1 {
+    color: red;
+    font-size: 56px;
+    background-color: rbg(215, 208, 233);
+
+}
+
+body {
+    background: #000 url("../images/bg.jpg") center;
+}
