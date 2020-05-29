@@ -8,3 +8,10 @@ h1 {
 body {
     background: rbg(215, 208, 233);
 }
+
+button {
+    border-width: 0;
+    border-radius: 8px;
+    background-color: gray;
+    color: white;
+}
