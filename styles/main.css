@@ -13,3 +13,8 @@ button {
     background-color: gray;
     color: white;
 }
+
+#gallery img {
+    width:30%;
+    margin:1.66%;
+}
