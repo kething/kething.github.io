@@ -19,3 +19,9 @@ img {
     margin:1.66%;
     float:left;
 }
+
+#gallery::after {
+    content:'';
+    display:block;
+    clear:both;
+}
