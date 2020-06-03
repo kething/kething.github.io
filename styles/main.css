@@ -17,4 +17,5 @@ button {
 #gallery img {
     width:30%;
     margin:1.66%;
+    float:left;
 }
