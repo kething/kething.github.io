@@ -10,6 +10,6 @@ function randColor() {
     return '#' + (function co(lor) {
         return (lor += hex[Math.floor(Math.random() *16)]) && (lor
             ? lor
-            : co(lor);
+            : co(lor)
                                                                
 })('');
