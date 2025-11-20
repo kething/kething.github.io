@@ -3,7 +3,7 @@
 # More info on Python, GitHub Actions, and Azure App Service: https://aka.ms/python-webapps-actions
 # Quickstart for Github Actions: https://docs.github.com/en/actions/writing-workflows/quickstart 
 
-name: Build and deploy Python app to Azure Web App - HairStylistCareerWebsite
+name: Build and deploy Python app to Azure Web App - HairStylistWebsite
 
 on:
   push:
@@ -65,6 +65,6 @@ jobs:
         uses: azure/webapps-deploy@v2
         id: deploy-to-webapp
         with:
-          app-name: 'HairStylistCareerWebsite'
+          app-name: 'HairStylistWebsite'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_B389DF50A4CC47778E803CFF6B261AFE }}
