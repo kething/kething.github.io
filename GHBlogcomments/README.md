@@ -1,2 +1,0 @@
-# GHBlogcomments
-Blog with comments
